@@ -1,0 +1,56 @@
+#full{
+    display: flex;
+    flex-direction: row;
+}
+
+#full div{
+    margin-right: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    width: 250px;
+}
+
+ul{
+    list-style-type: none;
+}
+#list1 li , #list2 li{
+    border: 1px solid black;
+    cursor: pointer;
+    margin-bottom: 3px;
+    padding:5px ;
+    background-color: lightseagreen;
+}
+
+#list1 li:hover , #list2 li:hover, #list3 li:hover{
+    background-color: orange;
+}
+
+#list3 li{
+    border: 1px solid black;
+    margin-bottom: 3px;
+    padding:5px ;
+    background-color: red;
+}
+
+ul li:hover{
+}
+
+.selected{
+    background-color: orange;
+}
+
+#list3 {
+    cursor: grab;
+}
+
+.box{
+    background-color: lightblue ;
+}
+
+body{
+    background-color: lightgray;
+}
+
+h3{
+    border-bottom: 2px solid black;
+}
